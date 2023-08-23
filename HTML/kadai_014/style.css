@@ -1,0 +1,57 @@
+body {
+    font-family: "Arial", "Meiryo", sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid rgb(115, 115, 114);
+}
+
+#basic {
+    display: inline-block;
+    text-align: left;
+}
+
+#basic h2 {
+    color: skyblue;
+}
+
+#basic p {
+    font-weight: normal;
+    color: rgb(115, 115, 114);
+}
+
+.pink {
+    color: pink;
+}
+
+.skyblue {
+    color: skyblue;
+}
+
+.pink, .skyblue {
+    font-weight: bold;
+}
+
+.first-letter {
+    font-weight: bold;
+}
+
+.pink-first {
+    color: pink;
+}
+
+.skyblue-first {
+    color: skyblue;
+}
+
+/* テキストを中央に揃える */
+#basic, h2, p {
+    text-align: center;
+}
